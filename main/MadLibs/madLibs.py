@@ -28,17 +28,17 @@ print(madLibs.format(verb, noun, adjective, adverb))
 # ask to save to a file
 userInput = input('Would you like to save your mad lib\'s in a text file? y/n').upper()
 
-# create file and write the madl ibs in to the file and save to desktop
+# create file and write the mad libs in to the file and save to desktop
 if userInput == 'Y':
     nameOf_TheFile = input('Enter the name of the file: ')
     path = "C:/Users/victo/Desktop"
     fileName = nameOf_TheFile
     fileNameAndPath = os.path.join(path, fileName + '.txt')
     madLibsTxt = open(fileNameAndPath, 'w')
-    madLibsTxt.write(madLibs)
+    madLibsTxt.write(madLibs.format(verb, noun, adjective, adverb))
     madLibsTxt.close()
 
-# text does not contain the saved words
+# Error! text contains {} instead of the saved words. SOLVED! .format with parameters
 
 print('Thank you for playing Vic\'s Mad Lib\'s!')
 print('Have a nice day!')
