@@ -1,0 +1,7 @@
+print out a welcome massage
+print out instructions to the game
+ask for input*3
+print out the MadLib
+ask to save to a file
+create file and write the madlibs in to the file
+exit massage
