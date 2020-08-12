@@ -9,7 +9,8 @@
 7 user guess the number
 8 compare the user guess to computer picked number
 9 give user hint if guess is less then or more then
-10 user get 'user_max_guesses' chances to guess (loop)
+10 user get 'numberOf_guesses' chances to guess (loop)
 11 if guessed right print victory massage
 12 if guessed wrong more times then 'user_max_guesses' print losing massage
 13 print exit massage
+
