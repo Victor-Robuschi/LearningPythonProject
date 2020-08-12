@@ -12,7 +12,7 @@ print('You are gonna be ask for 3 words')
 # Save word in 4 str
 verb = input('4. Write a verb: ')
 noun = input('3. Write a noun: ')
-adjective = input('2. Write a adjective:')
+adjective = input('2. Write a adjective: ')
 adverb = input('1. Write a adverb: ')
 
 # The mad labs in question
@@ -26,7 +26,7 @@ Monkey King dance {} in front of an audience of kangaroos and wombats.'''
 print(madLibs.format(verb, noun, adjective, adverb))
 
 # ask to save to a file
-userInput = input('Would you like to save your mad lib\'s in a text file? y/n').upper()
+userInput = input('Would you like to save your mad lib\'s in a text file? y/n: ').upper()
 
 # create file and write the mad libs in to the file and save to desktop
 if userInput == 'Y':
